@@ -14,6 +14,7 @@
     "@material-ui/utils": "^5.0.0-beta.5",
     "@mui/material": "^5.9.3",
     "@mui/styled-engine-sc": "^5.9.3",
+    "@mui/styles": "^5.9.3",
     "@mui/x-data-grid": "^5.15.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
