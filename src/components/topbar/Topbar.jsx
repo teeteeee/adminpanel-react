@@ -13,7 +13,7 @@ export default function Topbar() {
                 </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">
-                    <NotificationsNone/>                    
+                    <NotificationsNone />                    
                     <span className="topIconBadge">2</span>
                     </div>
                     <div className="topbarIconContainer">
