@@ -2,7 +2,7 @@ import React from 'react'
 import "./sidebar.css"
 import {LineStyle, Timeline, TrendingUp, PermIdentity, Storefront, Report, WorkOutline, BarChart, DynamicFeed, MailOutline, AttachMoney, } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
-import { ChatBubbleOutline } from '@material-ui/icons';
+import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 
 export default function sidebar() {
     return (
@@ -66,7 +66,7 @@ export default function sidebar() {
                             Feedback
                         </li>
                         <li className="sidebarListItem">
-                            <ChatBubbleOutline className="sidebarIcon" />
+                            <ChatBubbleOutlineIcon className="sidebarIcon" />
                             Messages
                         </li>
                     </ul>

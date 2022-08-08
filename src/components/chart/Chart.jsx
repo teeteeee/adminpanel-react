@@ -1,5 +1,5 @@
 import "./chart.css"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 
 export default function Chart({title, data, dataKey, grid}) {
@@ -15,7 +15,7 @@ export default function Chart({title, data, dataKey, grid}) {
                 <Line type="monotone" dataKey={dataKey} stroke="#5550bd"/>
                 
                 <Tooltip  />
-                {grid && <CartesianGrid stroke="#e0dfdf" strokeDasharray={5, 5}/>}
+                {grid && <CartesianGrid stroke="#e0dfdf" strokeDasharray={5, 5} />}
             </LineChart>
         </ResponsiveContainer>
     
